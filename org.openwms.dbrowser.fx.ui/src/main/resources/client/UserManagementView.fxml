@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="714.0" prefWidth="1010.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <SplitPane dividerPositions="0.2509920634920635" focusTraversable="true" prefHeight="714.0" prefWidth="1010.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="158.0" prefWidth="933.0">
+          <children>
+            <VBox layoutX="14.0" layoutY="14.0">
+              <children>
+                <Label text="User Management" textOverrun="ELLIPSIS">
+                  <font>
+                    <Font size="32.0" />
+                  </font>
+                </Label>
+                <HBox alignment="CENTER_LEFT" prefHeight="50.0" prefWidth="726.0" spacing="10.0">
+                  <children>
+                    <Button defaultButton="false" graphicTextGap="4.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="">
+                      <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="file:../img/User--plus.png" />
+                          </image>
+                        </ImageView>
+                      </graphic>
+                      <HBox.margin>
+                        <Insets />
+                      </HBox.margin>
+                    </Button>
+                    <Button defaultButton="false" graphicTextGap="4.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="">
+                      <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="file:../img/User--minus.png" />
+                          </image>
+                        </ImageView>
+                      </graphic>
+                    </Button>
+                    <Button defaultButton="false" graphicTextGap="4.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="">
+                      <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="file:../img/User--save.png" />
+                          </image>
+                        </ImageView>
+                      </graphic>
+                    </Button>
+                    <Button defaultButton="false" graphicTextGap="4.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="">
+                      <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="file:../img/refresh.png" />
+                          </image>
+                        </ImageView>
+                      </graphic>
+                    </Button>
+                    <Button defaultButton="false" graphicTextGap="4.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="">
+                      <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="file:../img/key--edit.png" />
+                          </image>
+                        </ImageView>
+                      </graphic>
+                    </Button>
+                    <Button defaultButton="false" graphicTextGap="4.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="40.0" text="">
+                      <graphic>
+                        <ImageView fitHeight="16.0" fitWidth="16.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                            <Image url="file:../img/picture--edit.png" />
+                          </image>
+                        </ImageView>
+                      </graphic>
+                    </Button>
+                  </children>
+                </HBox>
+                <Separator prefWidth="200.0" />
+              </children>
+            </VBox>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+  </children>
+</AnchorPane>

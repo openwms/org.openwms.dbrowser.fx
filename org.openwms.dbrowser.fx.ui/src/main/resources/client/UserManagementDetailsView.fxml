@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.util.Timezone.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import jfxtras.labs.scene.control.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Label layoutX="14.0" layoutY="14.0" text="Username" />
+    <Label layoutX="14.0" layoutY="44.0" text="Fullname" />
+    <TextField layoutX="133.0" layoutY="14.0" prefWidth="200.0" />
+    <TextField layoutX="133.0" layoutY="44.0" prefWidth="200.0" />
+    <TextArea layoutX="133.0" layoutY="75.0" prefHeight="90.0" prefWidth="200.0" wrapText="true" />
+    <TextField layoutX="133.0" layoutY="175.0" prefWidth="200.0" />
+    <Label layoutX="14.0" layoutY="75.0" text="Description" />
+    <Label layoutX="14.0" layoutY="175.0" text="Phone No." />
+    <TextField layoutX="133.0" layoutY="208.0" prefWidth="200.0" />
+    <TextField layoutX="133.0" layoutY="241.0" prefWidth="200.0" />
+    <TextField layoutX="133.0" layoutY="271.0" prefWidth="200.0" />
+    <Label layoutX="14.0" layoutY="208.0" text="IM" />
+    <Label layoutX="14.0" layoutY="241.0" text="Department" />
+    <Label layoutX="14.0" layoutY="271.0" text="Office" />
+    <RadioButton layoutX="133.0" layoutY="308.0" mnemonicParsing="false" text="Male" />
+    <RadioButton layoutX="133.0" layoutY="340.0" mnemonicParsing="false" text="Female" />
+    <TextArea layoutX="133.0" layoutY="372.0" prefHeight="60.0" prefWidth="200.0" wrapText="true" />
+    <Label layoutX="14.0" layoutY="372.0" text="Comment" />
+    <CheckBox layoutX="133.0" layoutY="446.0" mnemonicParsing="false" text="Enabled" />
+    <CheckBox layoutX="133.0" layoutY="479.0" mnemonicParsing="false" text="Locked" />
+    <Label layoutX="14.0" layoutY="510.0" text="Expiration date" />
+    <!--CalendarTextField prefWidth="200.0" layoutX="133.0" layoutY="510.0" /-->
+    <Label layoutX="14.0" layoutY="545.0" text="Roles" />
+    <TextArea layoutX="133.0" layoutY="545.0" prefHeight="60.0" prefWidth="200.0" wrapText="true" />
+    <Separator layoutX="344.0" layoutY="14.0" orientation="VERTICAL" prefHeight="591.0" />
+    <ImageView fitHeight="180.0" fitWidth="140.0" layoutX="358.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+  </children>
+</AnchorPane>

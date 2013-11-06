@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1024.0" styleClass="theme" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/openwms_header.png" backgroundLoading="false" />
+      </image>
+    </ImageView>
+    <HBox layoutX="872.0" layoutY="14.0" prefHeight="40.243896484375" prefWidth="138.0" />
+    <AnchorPane layoutX="7.0" layoutY="79.0" prefHeight="714.0" prefWidth="1010.0" />
+    <MenuBar layoutX="7.0" layoutY="55.0" prefWidth="1010.0" styleClass="theme">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Delete" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </children>
+  <stylesheets>
+    <URL value="@../css/openwms-main.css" />
+    <URL value="@../css/openwms-main.css" />
+  </stylesheets>
+</AnchorPane>
